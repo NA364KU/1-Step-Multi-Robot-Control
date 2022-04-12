@@ -11,6 +11,6 @@ Run the main file and use the following scheme to control the leader:
 
 "A", "D" : Increase angular velocity anticlockwise and clockwise respectively
 
-Notes: Does not perform well as, this does not use any future prediction optimization and therefore the limited motion of the robots causes them to collide if they are clustered together.
+Notes: Performance depends on efficient control of leader as this does not use any future prediction optimization and therefore the limited motion of the robots causes them to collide if they are clustered together.
 
 Future work may include methods like MPC (Model Predictive Control) where the future trajectories can be computed and adjusted accordingly.  
