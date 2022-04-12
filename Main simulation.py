@@ -1,6 +1,7 @@
 import pygame
 import math
 import numpy as np
+import os
 PI = math.pi
 
 class Robot:
@@ -252,14 +253,15 @@ start8 = (700,400)
 start = [start1,start2,start3,start4,start5,start6,start7,start8]
 dims = (600,1250)
 environment = Environment(dims)
-
+leader_image = os.getcwd() + r"\robot_leader.png"
+follower_image = os.getcwd() + r"\robot_image.png"
 robots = []
 n = 8
 for i in range(n):
     if i==0:
-        a = Robot(start[i], r'insert filepath to leader robot image here', True, i)
+        a = Robot(start[i], leader_image, True, i)
     else:
-        a = Robot(start[i],r'insert filepath to follower robot image here',True,i)
+        a = Robot(start[i],follower_image,True,i)
     robots.append(a)
 
 # circular motion
