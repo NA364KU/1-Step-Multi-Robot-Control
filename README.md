@@ -8,6 +8,7 @@ Prerequisites: Requires Python3, pygame, numpy
 Run the main file and use the following scheme to control the leader:
 
 "W", "S" : Increase and decrease linear velocity respectively
+
 "A", "D" : Increase angular velocity anticlockwise and clockwise respectively
 
 Notes: Does not perform well as, this does not use any future prediction optimization and therefore the limited motion of the robots causes them to collide if they are clustered together.
