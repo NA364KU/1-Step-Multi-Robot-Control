@@ -1,4 +1,4 @@
-# 1 step autonomous multi-robot control
+# 1 Step Multi-Robot Control
 Uses a modification of the boids flocking rules in a system of multiple robots in a leader-follower structure. 
 
 ## What are boids rules ?
