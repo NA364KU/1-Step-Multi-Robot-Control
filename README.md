@@ -35,6 +35,6 @@ Run the main file and use the following scheme to control the leader (red) to gu
 
 **Blue lines:** Avoidance method being active due to close proximity to other robot(s)
 
-**Notes:** Performance depends on efficient control of leader as this does not use any future prediction optimization and therefore the limited motion of the robots causes them to collide if they are clustered together.
+**Notes:** Performance depends on efficient control of leader as this does not use any future prediction optimization (hence "1 step") and therefore the limited motion of the robots causes them to collide if they are clustered together.
 
 **Future work:** Include modern control methods like MPC (Model Predictive Control) where the future trajectories can be computed and adjusted accordingly for optimal control inputs
