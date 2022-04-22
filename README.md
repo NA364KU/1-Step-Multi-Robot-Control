@@ -19,7 +19,7 @@ Some applications include:
 Here is a boids flocking model implementation by Daniel Shiffman https://processing.org/examples/flocking.html
 
 # How to Use
-Prerequisites: Requires Python3, pygame, numpy
+**Prerequisites:** Python3, pygame, numpy
 
 Run the main file and use the following scheme to control the leader (red) to guide the followers (blue):
 
